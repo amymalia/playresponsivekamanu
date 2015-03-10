@@ -1,0 +1,53 @@
+body {
+  padding-top: 81px;  /* Move body of page below navbar. */
+  font-family: "Lucida Grande", Lucida Sans;
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #E5EDDC;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.navbar-brand {
+  padding-top: 0px;
+}
+
+.navbar  {
+  height: 81px;
+  background-image: url("../images/carbon.jpg");
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: #E5EDDC;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.paddling-pic{
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+
+#tagline {
+  background-color: #000;
+  height: 131px;
+  text-align: center;
+}
+
+#tagline h2{
+  background-color: black;
+  font-family: Georgia,"Times New Roman",Times;
+  font-size: 2.5em;
+  padding: 1em 0px 0px;
+  margin: 0px;
+  color: #666;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 0px 0px 0px #000;
+}
+
